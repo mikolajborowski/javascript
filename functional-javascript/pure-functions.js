@@ -17,4 +17,4 @@ sumFunct(sum, 100) //It will not update sum, it will only return 200
 sum = sumFunct(sum, 100)
 //Idempotent function - function that returns the same result for the same arguments
 //Referential transparency - whole body of function can be changed for som value, for example in case of testing
-
+//Pure functions should not be used in procedure functions 
